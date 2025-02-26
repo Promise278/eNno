@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="/img/hero-img.png" type="image/x-icon">
     <link rel="stylesheet" href="/dist/style.css">
     <title>eNno</title>
 </head>
@@ -18,8 +19,8 @@
                 <li><a class="text-green-500" href="#">Home</a></li>
                 <li><a class="hover:text-blue-500" href="#about">About</a></li>
                 <li><a class="hover:text-pink-500" href="#services">Services</a></li>
-                <li><a class="hover:text-purple-500" href="#">Portfolio</a></li>
-                <li><a class="hover:text-yellow-500" href="#">Team</a></li>
+                <li><a class="hover:text-purple-500" href="#Portfolio">Portfolio</a></li>
+                <li><a class="hover:text-yellow-500" href="#team">Team</a></li>
                 <select class="border-0 h-8 w-24 bg-white pb-2 flex items-center">
                     <option class="mb-2" value="1">Dropdown</option>
                     <option value="2">Dropdown 1</option>
@@ -28,7 +29,7 @@
                     <option value="5">Dropdown 3</option>
                     <option value="6">Dropdown 4</option>
                 </select>
-                <li><a class="hover:text-red-500" href="#">Contact</a></li>
+                <li><a class="hover:text-red-500" href="#contact">Contact</a></li>
                 <button class="rounded-full text-white bg-green-500 w-28 h-8 hover:bg-black ml-4">Get Started</button>
             </ul>
             <ion-icon id="menu-open" name="menu" class="text-3xl cursor-pointer text-black md:hidden mr-48"></ion-icon>
@@ -70,7 +71,7 @@
                         <h2 class="font-bold">ABOUT US</h2>
                     </div>
                 </div>
-                <h2 class="text-slate-600 text-center font-bold text-3xl">ABOUT</h2>
+                <h2 class="text-slate-600 text-center font-bold text-3xl pt-2">ABOUT</h2>
                 <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="mt-16 gap-6 flex justify-center md:flex-row flex-col">
@@ -113,7 +114,7 @@
                         <h2 class="font-bold pt-10">SERVICES</h2>
                     </div>
                 </div>
-                <h2 class="text-slate-600 text-center font-bold text-3xl pt-4">SERVICES</h2>
+                <h2 class="text-slate-600 text-center font-bold text-3xl pt-8">SERVICES</h2>
                 <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="flex  items-center  justify-center gap-10 mt-24 ml-20 md:flex-row flex-col">
@@ -152,14 +153,14 @@
             </div>
             <br>
         </div>
-        <div>
+        <div id="Portfolio">
             <div class="mt-24">
                 <div class="relative py-2">
                     <div class="absolute inset-0 text-6xl opacity-65 text-gray-100 justify-center items-center flex">
                         <h2 class="font-bold">PORTFOLIO</h2>
                     </div>
                 </div>
-                <h2 class="text-slate-600 text-center font-bold text-3xl">PORTFOLIO</h2>
+                <h2 class="text-slate-600 text-center font-bold text-3xl pt-4">PORTFOLIO</h2>
                 <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="flex justify-center gap-4 mt-8 font-bold">
@@ -235,7 +236,7 @@
                         <h2 class="font-bold">TESTIMONIALS</h2>
                     </div>
                 </div>
-                <h2 class="text-slate-600 text-center font-bold text-3xl pt-4">TESTIMONIALS</h2>
+                <h2 class="text-slate-600 text-center font-bold text-3xl pt-8">TESTIMONIALS</h2>
                 <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="flex justify-center md:mt-12 mt-28 md:h-72 h-96 md:flex-row flex-col">
@@ -298,14 +299,14 @@
                 <br>
             </div>
         </div>
-        <div>
+        <div id="team">
             <div class="mt-24">
                 <div class="relative py-2">
                     <div class="absolute inset-0 text-6xl opacity-65 text-gray-100 justify-center items-center flex">
                         <h2 class="font-bold">SECTION TITLE</h2>
                     </div>
                 </div>
-                <h2 class="text-slate-600 text-center font-bold text-3xl">TEAM</h2>
+                <h2 class="text-slate-600 text-center font-bold text-3xl pt-4">TEAM</h2>
                 <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="flex justify-center mt-12 gap-4 md:flex-row flex-col">
@@ -365,19 +366,48 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div id="contact">
             <div class="mt-24">
                 <div class="relative py-2">
                     <div class="absolute inset-0 text-6xl opacity-65 text-gray-100 justify-center items-center flex">
                         <h2 class="font-bold">SECTION TITLE</h2>
                     </div>
                 </div>
-                <h2 class="text-slate-600 text-center font-bold text-3xl">CONTACT</h2>
+                <h2 class="text-slate-600 text-center font-bold text-3xl pt-4">CONTACT</h2>
                 <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="mt-12 flex justify-center md:flex-row flex-col">
-                <div class="bg-[rgba(255,255,255,1)] shadow-lg m-4 p-4">
-
+                <div class="bg-[rgba(255,255,255,1)] shadow-lg m-4 p-4 w-96">
+                    <div class="flex gap-2 pt-6">
+                        <div class="rounded-full w-10 h-10 bg-gray-200 pl-2 pt-2 hover:bg-green-500">
+                            <svg class="" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+                        </div>
+                        <div>
+                            <h2 class="text-slate-600 font-bold">Address</h2>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 pt-6">
+                        <div class="rounded-full w-10 h-10 bg-gray-200 pl-2 pt-2 hover:bg-green-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>
+                        </div>
+                        <div>
+                            <h2 class="text-slate-600 font-bold">Call Us</h2>
+                            <p>+1 5589 55488 55</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 pt-6">
+                        <div class="rounded-full w-10 h-10 bg-gray-200 pl-2 pt-2 hover:bg-green-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+                        </div>
+                        <div>
+                            <h2 class="text-slate-600 font-bold">Email Us</h2>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="/img/Screenshot_From_2025-02-26_12-44-35-removebg-preview.png" alt="">
+                    </div>
                 </div>
                 <div class="bg-[rgba(255,255,255,1)] shadow-lg m-4 p-4">
                     <div class="flex gap-4 md:flex-row flex-col">
