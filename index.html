@@ -33,7 +33,7 @@
             </ul>
             <ion-icon id="menu-open" name="menu" class="text-3xl cursor-pointer text-black md:hidden mr-48"></ion-icon>
         </nav>
-        <div class="flex justify-around mt-52 md:flex-row flex-col">
+        <div class="flex justify-around mt-80 md:flex-row flex-col">
             <div class="text-slate-600 ml-4">
                 <h2 class="text-5xl">Elegant and creative <br> solutions</h2>
                 <p class="md:text-1xl text-xl">We are team of talented designers making websites with <br> Bootstrap</p>
@@ -46,7 +46,7 @@
                 <img src="/img/hero-img.png" class="w-96 animate-bounce-slow" alt="">
             </div>
         </div>
-        <div class="flex justify-around mt-16 px-10 gap-6 md:flex-row flex-col p-3">
+        <div class="flex md:justify-around items-center mt-16 px-10 gap-6 md:flex-row flex-col p-3">
             <div class="group bg-gray-50 w-80 h-56 pl-4 hover:mt-4 md:ml-16">
                 <img src="/img/chart.png" class="mt-4" alt="">
                 <h3 class="group-hover:text-green-500 text-2xl text-slate-600 pt-4 font-bold">Lorem Ipsum</h3>
@@ -57,7 +57,7 @@
                 <h3 class="group-hover:text-green-500 text-2xl text-slate-600 pt-4 font-bold">Sed ut perspici</h3>
                 <p class="pt-4">Duis  aute irrurue dolor in  reprhenderit in <br> voluptate velit esse cillum dolore</p>
             </div>
-            <div class="group bg-gray-50 w-80 h-56 pl-4 hover:mt-4 mr-20">
+            <div class="group bg-gray-50 w-80 h-56 pl-4 hover:mt-4 md:mr-20 mr-0">
                 <img src="/img/box.png" class="mt-4" alt="">
                 <h3 class="group-hover:text-green-500 text-2xl text-slate-600 pt-4 font-bold">Magni Dolores</h3>
                 <p class="pt-4">Excepture sint occaecat cupidatat non proident, <br> sunt in culpa qui officia</p>
@@ -67,7 +67,7 @@
             <div class="mt-24">
                 <div class="relative py-2">
                     <div class="absolute inset-0 text-6xl opacity-65 text-gray-100 justify-center items-center flex">
-                        <h2 class="font-bold">ABOUT</h2>
+                        <h2 class="font-bold">ABOUT US</h2>
                     </div>
                 </div>
                 <h2 class="text-slate-600 text-center font-bold text-3xl">ABOUT</h2>
@@ -86,7 +86,7 @@
                     <p class="pt-6">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br> dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br> pariatur. Excepteur sint occaecat cupidatat non proident</p>
                 </div>
             </div>
-            <div class="flex justify-center md:gap-52 gap-2 mt-24 md:flex-row flex-col">
+            <div class="flex md:justify-center items-center md:gap-52 gap-2 mt-24 md:flex-row flex-col">
                 <div class="ml-2">
                     <p class="text-5xl font-bold text-green-500">232</p>
                     <p class="text-slate-500 pt-2">Clients</p>
@@ -108,7 +108,12 @@
         
         <div class="bg-gray-100">
             <div class="mt-24">
-                <h2 class="text-slate-600 text-center font-bold text-3xl pt-12">SERVICES</h2>
+                <div class="relative py-2">
+                    <div class="absolute inset-0 text-6xl opacity-65 text-white justify-center items-center flex">
+                        <h2 class="font-bold pt-10">SERVICES</h2>
+                    </div>
+                </div>
+                <h2 class="text-slate-600 text-center font-bold text-3xl pt-4">SERVICES</h2>
                 <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="flex  items-center  justify-center gap-10 mt-24 ml-20 md:flex-row flex-col">
@@ -128,30 +133,33 @@
                     <p class="pt-6 text-center">Provident nihil qui consequatur non ominis <br> mairios. Eos accusantium tempore et consequetaur.</p>
                 </div>
             </div>
-            <div>
-                <div class="flex justify-around mt-24 ml-20 md:flex-row flex-col">
-                    <div class="bg-white w-80 h-80 border-2 hover:border-green-500">
-                        <img src="/img/mete.png" class="ml-32 mt-12" alt="">
-                        <h3 class="text-2xl text-slate-600 hover:text-green-500 pt-6 font-bold text-center">Nesciunt Mete</h3>
-                        <p class="pt-6 text-center">Provident nihil qui consequatur non ominis <br> mairios. Eos accusantium tempore et consequetaur.</p>
-                    </div>
-                    <div class="bg-white w-80 h-80 border-2 hover:border-green-500">
-                        <img src="/img/hotspot.png" class="ml-32 mt-12" alt="">
-                        <h3 class="text-2xl text-slate-600 hover:text-green-500 pt-6 font-bold text-center">Eosle Commodi</h3>
-                        <p class="pt-6 text-center">Provident nihil qui consequatur non ominis <br> mairios. Eos accusantium tempore et consequetaur.</p>
-                    </div>
-                    <div class="bg-white w-80 h-80 border-2 hover:border-green-500">
-                        <img src="/img/tv.png" class="ml-32 mt-12" alt="">
-                        <h3 class="text-2xl text-slate-600 hover:text-green-500 pt-6 font-bold text-center">Ledo Markt</h3>
-                        <p class="pt-6 text-center">Provident nihil qui consequatur non ominis <br> mairios. Eos accusantium tempore et consequetaur.</p>
-                    </div>
+            <div class="flex  items-center  justify-center gap-10 mt-8 ml-20 md:flex-row flex-col">
+                <div class="bg-white w-80 h-80 border-2 hover:border-green-500">
+                    <img src="/img/mete.png" class="ml-32 mt-12" alt="">
+                    <h3 class="text-2xl text-slate-600 hover:text-green-500 pt-6 font-bold text-center">Nesciunt Mete</h3>
+                    <p class="pt-6 text-center">Provident nihil qui consequatur non ominis <br> mairios. Eos accusantium tempore et consequetaur.</p>
+                </div>
+                <div class="bg-white w-80 h-80 border-2 hover:border-green-500">
+                    <img src="/img/hotspot.png" class="ml-32 mt-12" alt="">
+                    <h3 class="text-2xl text-slate-600 hover:text-green-500 pt-6 font-bold text-center">Eosle Commodi</h3>
+                    <p class="pt-6 text-center">Provident nihil qui consequatur non ominis <br> mairios. Eos accusantium tempore et consequetaur.</p>
+                </div>
+                <div class="bg-white w-80 h-80 border-2 hover:border-green-500">
+                    <img src="/img/tv.png" class="ml-32 mt-12" alt="">
+                    <h3 class="text-2xl text-slate-600 hover:text-green-500 pt-6 font-bold text-center">Ledo Markt</h3>
+                    <p class="pt-6 text-center">Provident nihil qui consequatur non ominis <br> mairios. Eos accusantium tempore et consequetaur.</p>
                 </div>
             </div>
             <br>
         </div>
         <div>
             <div class="mt-24">
-                <h2 class="text-slate-600 text-center font-bold text-3xl pt-12">PORTFOLIO</h2>
+                <div class="relative py-2">
+                    <div class="absolute inset-0 text-6xl opacity-65 text-gray-100 justify-center items-center flex">
+                        <h2 class="font-bold">PORTFOLIO</h2>
+                    </div>
+                </div>
+                <h2 class="text-slate-600 text-center font-bold text-3xl">PORTFOLIO</h2>
                 <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="flex justify-center gap-4 mt-8 font-bold">
@@ -161,9 +169,23 @@
                 <p>BRANDING</p>
                 <p>BOOKS</p>
             </div>
+            <div class="absolute mt-48 ml-6  inset-0 bg-white/80 backdrop-blur-sm rounded-sm flex  justify-center 
+                        text-left items-center  gap-8 md:gap-6 
+                        opacity-0  transition-all duration-700 ease-in-out group-hover:opacity-100 w-80 h-20 ">
+                <div>
+                    <h1 class="text-gray-800 font-semibold text-lg">App 1</h1>
+                    <span class="text-gray-600 text-sm">Lorem ipsum dolor sit</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="gray">
+                    <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Zm-40-60v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80Z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="gray">
+                    <path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z"/>
+                </svg>
+            </div>
             <div class="flex justify-center mt-8 gap-6 md:flex-row flex-col">
                 <div>
-                    <img src="/img/app-1.jpg" class="w-96 ml-32" alt="">
+                    <img src="/img/app-1.jpg" class="w-96 md:ml-32 ml-0" alt="">
                 </div>
                 <div>
                     <img src="/img/product-1.jpg" class="w-96 pl-4 h-72" alt="">
@@ -172,9 +194,9 @@
                     <img src="/img/branding-1.jpg" class="w-96 mr-20" alt="">
                 </div>
             </div>
-            <div class="flex justify-center mt-8 gap-6 md:flex-row flex-col">
+            <div class="flex md:justify-center items-start mt-8 gap-6 md:flex-row flex-col">
                 <div>
-                    <img src="/img/books-1.jpg" class="w-96 ml-32" alt="">
+                    <img src="/img/books-1.jpg" class="w-96 md:ml-32 ml-0" alt="">
                 </div>
                 <div>
                     <img src="/img/app-2.jpg" class="w-96 pl-4 h-72" alt="">
@@ -183,9 +205,9 @@
                     <img src="/img/product-2.jpg" class="w-96 mr-20" alt="">
                 </div>
             </div>
-            <div class="flex justify-center mt-8 gap-6 md:flex-row flex-col">
+            <div class="flex md:justify-center items-start mt-8 gap-6 md:flex-row flex-col">
                 <div>
-                    <img src="/img/branding-2.jpg" class="w-96 ml-32" alt="">
+                    <img src="/img/branding-2.jpg" class="w-96 md:ml-32 ml-0" alt="">
                 </div>
                 <div>
                     <img src="/img/books-2.jpg" class="w-96 pl-4 h-72" alt="">
@@ -194,9 +216,9 @@
                     <img src="/img/app-3.jpg" class="w-96 mr-20" alt="">
                 </div>
             </div>
-            <div class="flex justify-center mt-8 gap-6 md:flex-row flex-col">
+            <div class="flex md:justify-center items-start mt-8 gap-6 md:flex-row flex-col">
                 <div>
-                    <img src="/img/product-3.jpg" class="w-96 ml-32" alt="">
+                    <img src="/img/product-3.jpg" class="w-96 md:ml-32 ml-0" alt="">
                 </div>
                 <div>
                     <img src="/img/branding-3.jpg" class="w-96 pl-4 h-72" alt="">
@@ -208,22 +230,62 @@
         </div>
         <div class="bg-gray-100 mt-24">
             <div class="mt-24">
-                <h2 class="text-slate-600 text-center font-bold text-3xl pt-12">TESTIMONIALS</h2>
+                <div class="relative py-2">
+                    <div class="absolute inset-0 text-6xl opacity-65 text-white pt-8 justify-center items-center flex">
+                        <h2 class="font-bold">TESTIMONIALS</h2>
+                    </div>
+                </div>
+                <h2 class="text-slate-600 text-center font-bold text-3xl pt-4">TESTIMONIALS</h2>
                 <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="flex justify-center md:mt-12 mt-28 md:h-72 h-96 md:flex-row flex-col">
                 <div class="group bg-gray-50 w-80 h-56 pl-4 md:ml-16 md:mt-0 mt-4">
-                    <h3 class="group-hover:text-green-500 text-2xl text-slate-600 pt-4 font-bold">Sara Wilson</h3>
-                    <p class="pt-4">Lorem ipsum dolor sit amet consectetur, adipisicing <br> elit. Laborum id provident labore odio facilis aut <br> nulla! Nemo vero earum deleniti?</p>
-                </div>
-                <div class="group bg-gray-50 w-80 h-56 pl-4 md:ml-16 md:mt-0 mt-4">
-                    <h3 class="group-hover:text-green-500 text-2xl text-slate-600 pt-4 font-bold">Saul Goodman</h3>
-                    <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Rerum, officiis. Velit, tenetur sapiente. Itaque <br> nam eum corporis accusamus molestias, <br> explicabo facilis. Porro.</p>
+                    <h3 class="group-hover:text-green-500 text-2xl text-slate-600 pt-4 font-bold">Matt Brandon</h3>
+                    <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Animi rerum eligendi autem enim voluptatum <br> sunt voluptas eum labore, maiores quae nisi</p>
+                    <div class="items-center ml-4 -mt-8">
+                        <div class="border border-white bg-white h-20 w-20 rounded-full p-2">
+                            <img src="/img/saul.jpg" alt="Sara Wilsson" class="w-16 h-16 rounded-full">
+                        </div>
+                        <div class="">
+                            <p class="text-gray-900 font-semibold">Saul Goodman</p>
+                            <p class="text-gray-500 text-sm">Ceo & Founder</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="group bg-gray-50 w-80 h-56 pl-4 md:ml-16 md:mt-0 mt-4">
                     <h3 class="group-hover:text-green-500 text-2xl text-slate-600 pt-4 font-bold">Matt Brandon</h3>
                     <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Animi rerum eligendi autem enim voluptatum <br> sunt voluptas eum labore, maiores quae nisi</p>
+                    <div class="items-center ml-4 -mt-8">
+                        <div class="border border-white bg-white h-20 w-20 rounded-full p-2">
+                            <img src="/img/sara.jpg" alt="Sara Wilsson" class="w-16 h-16 rounded-full">
+                        </div>
+                        <div class="">
+                            <p class="text-gray-900 font-semibold">Sara Wilsson</p>
+                            <p class="text-gray-500 text-sm">Designer</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="group bg-gray-50 w-80 h-56 pl-4 md:ml-16 md:mt-0 mt-4">
+                    <h3 class="group-hover:text-green-500 text-2xl text-slate-600 pt-4 font-bold">Matt Brandon</h3>
+                    <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Animi rerum eligendi autem enim voluptatum <br> sunt voluptas eum labore, maiores quae nisi</p>
+                    <div class="items-center ml-4 -mt-8">
+                        <div class="border border-white bg-white h-20 w-20 rounded-full p-2">
+                            <img src="/img/matt.jpg" alt="Sara Wilsson" class="w-16 h-16 rounded-full">
+                        </div>
+                        <div class="">
+                            <p class="text-gray-900 font-semibold">Matt Brandon</p>
+                            <p class="text-gray-500 text-sm">Freelancer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-6">
+            <div class="flex space-x-2">
+                <span class="w-3 h-3 bg-green-400 rounded-full"></span>
+                <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
+                <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
+                <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
             </div>
         </div>
         <div class="md:mt-24 mt-36">
@@ -249,14 +311,145 @@
             <div class="flex justify-center mt-12 gap-4 md:flex-row flex-col">
                 <div>
                     <img src="/img/team-1.jpg" class="w-96" alt="">
+                    <div class="text-white ml-24 -mt-20">
+                        <h3>Walter White</h3>
+                        <hr class="w-8 pt-2">
+                        <div class="flex md:justify-around justify-start">
+                            <div>
+                                <p class="pt-2"><i>Chief Executive Officer</i></p>
+                            </div>
+                            <div class="flex gap-2 mr-8">
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
+                <div class="md:mt-0 mt-8">
                     <img src="/img/team-2.jpg" class="w-96" alt="">
+                    <div class="text-white ml-24 -mt-20">
+                        <h3>Sarah Jhonson</h3>
+                        <hr class="w-8 pt-2">
+                        <div class="flex md:justify-around justify-start">
+                            <div>
+                                <p class="pt-2"><i>Product Manager</i></p>
+                            </div>
+                            <div class="flex gap-2">
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
+                <div class="md:mt-0 mt-8">
                     <img src="/img/team-3.jpg" class="w-96" alt="">
+                    <div class="text-white ml-24 -mt-20">
+                        <h3>William Anderson</h3>
+                        <hr class="w-8 pt-2">
+                        <div class="flex md:justify-around justify-start">
+                            <div>
+                                <p class="pt-2"><i>CTO</i></p>
+                            </div>
+                            <div class="flex gap-2">
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div>
+            <div class="mt-24">
+                <div class="relative py-2">
+                    <div class="absolute inset-0 text-6xl opacity-65 text-gray-100 justify-center items-center flex">
+                        <h2 class="font-bold">SECTION TITLE</h2>
+                    </div>
+                </div>
+                <h2 class="text-slate-600 text-center font-bold text-3xl">CONTACT</h2>
+                <p class="text-center pt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+            <div class="mt-12 flex justify-center md:flex-row flex-col">
+                <div class="bg-[rgba(255,255,255,1)] shadow-lg m-4 p-4">
+
+                </div>
+                <div class="bg-[rgba(255,255,255,1)] shadow-lg m-4 p-4">
+                    <div class="flex gap-4 md:flex-row flex-col">
+                        <form>
+                            <label for="">Your Name</label>
+                            <br>
+                            <input type="text" class="border-2 hover:border-green-500 w-80 h-12">
+                        </form>
+                        <form>
+                            <label for="">Your Email</label>
+                            <br>
+                            <input type="email" class="border-2 hover:border-green-500 w-80 h-12">
+                        </form>
+                    </div>
+                    <form class="mt-8 w-72">
+                        <label for="">Subject</label>
+                        <br>
+                        <input type="text" class="border-2 hover:border-green-500 w-96 h-12">
+                    </form>
+                    <label for="">Message</label>
+                    <br>
+                    <textarea name="message" id="" class="border-2 hover:border-green-500"></textarea>                
+                    <button class="rounded-full text-white bg-green-500 w-32 h-8 hover:bg-black ml-24 mt-8">Send Message</button>
+                </div>
+            </div>
+            <footer>
+                <div class="bg-gray-100 mt-12 md:h-56 h-72">
+                    <h3 class="text-slate-600 text-center font-bold text-2xl pt-12">Join Our Newsletter</h3>
+                    <p class="text-center pt-4">Subscribe to our newsletter and recieve the latest news about our products and <br> services!</p>
+                    <form class="flex justify-center">
+                        <input type="search" class="rounded-full mt-8 h-10 w-96">
+                        <button class="rounded-full text-white bg-green-500 w-24 h-10 hover:bg-black mr- mt-8">Subscribe</button>
+                    </form>
+                </div>
+                <div class="flex justify-center gap-0 mt-24 md:flex-row flex-col">
+                    <div class="ml-12">
+                        <h1 class="text-slate-600 text-3xl font-roboto font-bold">eNno</h1>
+                        <address class="pt-4">A108 Adam Street <br> New York, NY 535022</address>
+                        <p class="font-bold pt-4">Phone: <span class="font-normal">+1 5589 55488 55</span></p>
+                        <p class="font-bold pt-2">Email: <span class="font-normal">info@example.com</span></p>
+                    </div>
+                    <div class="md:mt-0 mt-4 ml-12">
+                        <h1 class="text-slate-600 text-1xl font-roboto font-bold">Useful Links</h1>
+                        <p class="hover:text-green-500 flex pt-2"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>Home</p>
+                        <p class="hover:text-green-500 flex pt-2"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>About Us</p>
+                        <p class="hover:text-green-500 flex pt-2"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>Services</p>
+                        <p class="hover:text-green-500 flex pt-2"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>Terms of Service</p>
+                    </div>
+                    <div class="md:mt-0 mt-4 ml-12">
+                        <h1 class="text-slate-600 text-1xl font-roboto font-bold mr-36">Our Services</h1>
+                        <p class="hover:text-green-500 flex pt-2"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>Web Design</p>
+                        <p class="hover:text-green-500 flex pt-2"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>Web Development</p>
+                        <p class="hover:text-green-500 flex pt-2"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>Production Management</p>
+                        <p class="hover:text-green-500 flex pt-2"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>Marketing</p>
+                    </div>
+                    <div class="md:mt-0 mt-4 ml-12">
+                        <h1 class="text-slate-600 text-1xl font-roboto font-bold mr-36">Follow Us</h1>
+                        <p>Cras fermentum odio eu feugiat lide par naso tierra videa <br> magna derita valies</p>
+                        <div class="flex gap-2 mr-8 mt-4 rounded-full">
+                            <svg class="w-10 rounded-full p-2 border-2 border-black h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                            <svg class="w-10 rounded-full p-2 border-2 border-black h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                            <svg class="w-10 rounded-full p-2 border-2 border-black h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                            <svg class="w-10 rounded-full p-2 border-2 border-black h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mx-20 mt-8">
+                <div class="mt-8">
+                    <p class="text-center">&copy; Copyright eNno All Rights Reserved</p>
+                    <p class="text-center">Designed by <span class="text-green-500">BootstrapMade</span> Distributed by <span class="text-green-500">ThemeWagon</span></p>
+                </div>
+            </footer>
         </div>
         <div class="flex justify-end mr-8">
             <div class="bg-green-500 rounded-full w-8 h-10 flex justify-center pt-2">
